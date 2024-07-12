@@ -1,0 +1,13 @@
+{
+    "Target": {
+        "EntitySet": "Attachments_table",
+        "Service": "/ch/Services/myApp.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "OnSuccess": "/ch/Actions/DeleteEntitySuccessMessage.action",
+    "OnFailure": "/ch/Actions/DeleteEntityFailureMessage.action",
+    "ActionResult": {
+        "_Name": "delete"
+    },
+    "_Type": "Action.Type.ODataService.DeleteEntity"
+}

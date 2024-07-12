@@ -1,0 +1,5 @@
+{
+    "_Type": "Action.Type.OpenDocument",
+    "Path": "/ch/Services/myApp.service/{@odata.readLink}/content",
+    "MimeType": "image/jpeg"
+}

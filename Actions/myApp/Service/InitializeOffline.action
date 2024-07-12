@@ -1,0 +1,14 @@
+{
+    "Service": "/ch/Services/myApp.service",
+    "DefiningRequests": [{
+        "Name": "Attachments_table",
+        "Query": "Attachments_table"
+    }],
+    "_Type": "Action.Type.ODataService.Initialize",
+    "ShowActivityIndicator": true,
+    "ActivityIndicatorText": "Downloading...",
+    "ActionResult": {
+        "_Name": "init"
+    },
+    "OnFailure": "/ch/Actions/myApp/Service/InitializeOfflineFailureMessage.action"
+}

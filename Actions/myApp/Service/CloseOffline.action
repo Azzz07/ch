@@ -1,0 +1,10 @@
+{
+    "_Type": "Action.Type.OfflineOData.Close",
+    "Service": "/ch/Services/myApp.service",
+    "Force": true,
+    "ActionResult": {
+        "_Name": "close"
+    },
+    "OnSuccess": "/ch/Actions/myApp/Service/CloseOfflineSuccessMessage.action",
+    "OnFailure": "/ch/Actions/myApp/Service/CloseOfflineFailureMessage.action"
+}

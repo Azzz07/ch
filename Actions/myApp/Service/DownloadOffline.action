@@ -1,0 +1,13 @@
+{
+    "Service": "/ch/Services/myApp.service",
+    "DefiningRequests": [{
+        "Name": "Attachments_table",
+        "Query": "Attachments_table"
+    }],
+    "_Type": "Action.Type.OfflineOData.Download",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnFailure": "/ch/Actions/myApp/Service/SyncFailureMessage.action",
+    "OnSuccess": "/ch/Rules/ErrorArchive/ErrorArchive_CheckForSyncError.js"
+}

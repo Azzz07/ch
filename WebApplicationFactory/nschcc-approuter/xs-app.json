@@ -1,0 +1,12 @@
+{
+	"authenticationMethod": "route",
+	"routes": [
+		{
+			"csrfProtection": false,
+			"source": "^/myApp/(.*)$",
+			"target": "$1",
+			"destination": "myApp",
+			"authenticationType": "xsuaa"
+		}
+	]
+}
